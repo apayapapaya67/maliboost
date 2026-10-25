@@ -1,0 +1,12 @@
+{
+	"required": false,
+	"minVersion": "0.8",
+	"package": "com.maliboost.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"MinecraftMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}
