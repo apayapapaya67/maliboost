@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "maliboost",
+	"version": "${version}",
+	"name": "MaliBoost",
+	"description": "Adaptive render/simulation distance governor for low-end Android (Mali) devices.",
+	"authors": ["MaliBoost"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.maliboost.MaliBoostClient"],
+		"modmenu": ["com.maliboost.ModMenuIntegration"]
+	},
+	"mixins": ["maliboost.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
